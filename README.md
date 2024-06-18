@@ -135,3 +135,15 @@ If you have any questions, feel free to reach out:
 - Name: 
 - Email: 
 - GitHub: 
+
+
+
+## References
+
+- [GIS](https://mgimond.github.io/Spatial/coordinate-systems-in-r.html)
+- [QGIS](https://docs.qgis.org/3.16/en/docs/index.html)
+- [ArcGIS](https://desktop.arcgis.com/en/)
+- [Python](https://docs.python.org/3/)
+- [R](https://www.r-project.org/)
+- [Geopandas](https://geopandas.org/)
+- [Matplotlib](https://matplotlib.org/)
