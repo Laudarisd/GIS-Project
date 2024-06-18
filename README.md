@@ -18,9 +18,10 @@ In this repository, we will learn about GIS analysis, visualization, data manage
 6. [Datasets](#datasets)
 7. [GIS Analysis](#gis-analysis)
 8. [Visualization](#visualization)
-9. [Contributing](#contributing)
-10. [License](#license)
-11. [Contact](#contact)
+9. [Remote Sensing](#remote-sensing)
+10. [Contributing](#contributing)
+11. [License](#license)
+12. [Contact](#contact)
 
 ## Introduction
 
@@ -110,6 +111,15 @@ Detailed documentation and examples of various GIS analysis techniques.
 
 Examples and tutorials on visualizing GIS data.
 
+## Remote Sensing
+
+In this section, we cover remote sensing techniques and applications, including:
+
+- Introduction to remote sensing
+- Satellite image processing
+- Applications of remote sensing in GIS
+- Tools and software for remote sensing analysis
+
 ## Contributing
 
 We welcome contributions! Please read our [contributing guidelines](CONTRIBUTING.md) for more details.
@@ -122,7 +132,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions, feel free to reach out:
 
-- Name: [Your Name]
-- Email: [Your Email]
-- GitHub: [Your GitHub Profile]
-
+- Name: 
+- Email: 
+- GitHub: 
