@@ -120,6 +120,40 @@ In this section, we cover remote sensing techniques and applications, including:
 - Applications of remote sensing in GIS
 - Tools and software for remote sensing analysis
 
+### Imagery and remote sensing in ArcGIS
+Visualizing, processing, analyzing, and managing imagery and raster data are an important part of GIS. Information contained in typical land base maps and GIS layers is derived from imagery and raster data. Existing maps and layers are revised based on updated imagery.
+
+ArcGIS includes capabilities for visualizing, managing, processing, and analyzing imagery and raster data. These imagery and remote sensing capabilities are extended in the more advanced image analysis capabilities in the ArcGIS Image Analyst extension.
+
+#### Imagery and remote sensing defined
+
+Images are raster data that represent measurements of reflected or emitted electromagnetic energy captured by a sensor on a drone, airplane, or satellite. Other types of imagery and raster data include scientific measurements of a location's properties, such as temperature and salinity at different water depths, elevation models, and seismic surveys.
+
+Remote sensing extracts meaningful information from imagery. It applies image processing techniques to identify and extract various types of information about features of interest, such as vegetation type and health, type of urban development, and identifying and analyzing trends in detected objects and phenomena. Proximity and neighborhood analysis, seasonality, physical and cultural geography, vegetation growth phenomenology, climate, and other physical and environmental factors are considered when defining the type and timing of image acquisition. Remote sensing is the embodiment of The Science of Where™.
+
+The tools, functions, and capabilities in ArcGIS extract spatial and spectral information from imagery using scientific and image processing methodologies. While the processes are standardized and optimized using advanced image processing techniques, workflows and results are often unique based on scientific remote sensing techniques. For example, the relative health of specific vegetation species can be monitored and analyzed over a growth cycle.
+
+Imagery and remote sensing provide functions, tools, and capabilities to perform the following:
+
+- Correct, calibrate, and standardize imagery for integration into workflows
+- Photogrammetric correction of remotely sensed imagery from drones, aircraft, and satellites
+- Image interpretation, processing, and exploitation
+- Multispectral and multidimensional raster analysis and processing
+- Create information products from imagery
+- Advanced raster and image analysis workflows for machine learning and feature extraction
+
+ArcGIS Pro provides a collection of tools to manage and serve large collections of imagery. The core components of image management are mosaic datasets and raster products. Traditionally, a mosaic is created when you combine a collection of images to create one seamless image. The mosaic dataset does that, but it also uses image attributes, such as acquisition date, cloud cover, or spatial resolution, to help you manage a collection of imagery, even one composed of overlapping images or images with varying spatial resolutions. Instead of creating files when you want to change which images are displayed, or enhance the images, the mosaic dataset processes the imagery in-memory, allowing it to quickly display an image of interest, regardless of the size of the collection.
+
+
+This explanation is from ArcGIS page.
+[Source](https://pro.arcgis.com/en/pro-app/latest/help/data/imagery/imagery-and-remote-sensing-in-arcgis.htm)
+
+
+#### Manage imagery and raster datasets
+
+
+
+
 ## Contributing
 
 We welcome contributions! Please read our [contributing guidelines](CONTRIBUTING.md) for more details.
