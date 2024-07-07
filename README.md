@@ -100,7 +100,7 @@ Before you begin, ensure you have the following software installed:
 
 ## Datasets
 
-- [List of datasets used in this project](data/)
+- [List of datasets used in this project](https://hub.arcgis.com/search?collection=Dataset)
 - How to contribute new datasets
 
 ## GIS Analysis
