@@ -84,23 +84,31 @@ This research proposal outlines a collaborative project to map methane emissions
 
 - **Objective**: Attribute methane emissions to specific sources (e.g., livestock, soil, natural features) in Indigenous agricultural contexts, integrating satellite, ground, and cultural data for predictive and culturally informed analysis.
 
-- **Formulation**:  
-  Define \( E(x, t) \) as the methane emission rate (kg CH₄/h) at location \( x \) and time \( t \):  
- $$ \[
-  E(x, t) = \sum_{i=1}^N w_i S_i(x, t) + \alpha C(x, t) + \beta M(x, t) + \epsilon(x, t)
-  \]$$
-  Where:  
-  - \( S_i(x, t) \): Emission contribution from source \( i \) (e.g., livestock \( S_1 \), soil \( S_2 \)), modeled as:  
-    \[
-    S_i(x, t) = k_i D_i(x) \cdot f_i(t)
-    \]
-    - \( k_i \): Emission factor (e.g., kg CH₄/unit/day).  
-    - \( D_i(x) \): Spatial density (e.g., units/km²).  
-    - \( f_i(t) \): Temporal factor (e.g., seasonal activity intensity).  
-  - \( C(x, t) \): Cultural influence (e.g., traditional land practices), weighted by \( \alpha \).  
-  - \( M(x, t) \): MethaneSat concentration (ppm), scaled by \( \beta \).  
-  - \( \epsilon(x, t) \): Error term for noise and unmodeled effects.  
-  - \( w_i \): Adaptive weights optimized via machine learning.
+### 📐 Formulation
+
+Define the methane emission rate $E(x, t)$ in **kg CH₄/h** at a given location $x$ and time $t$:
+
+$$
+E(x, t) = \sum_{i=1}^N w_i S_i(x, t) + \alpha C(x, t) + \beta M(x, t) + \epsilon(x, t)
+$$
+
+**Where:**
+
+- $S_i(x, t)$: Emission contribution from source $i$ (e.g., **livestock** $S_1$, **soil** $S_2$), modeled as:
+
+  $$
+  S_i(x, t) = k_i \cdot D_i(x) \cdot f_i(t)
+  $$
+
+  - $k_i$: Emission factor *(e.g., kg CH₄/unit/day)*  
+  - $D_i(x)$: Spatial density *(e.g., units/km²)*  
+  - $f_i(t)$: Temporal factor *(e.g., seasonal activity intensity)*
+
+- $C(x, t)$: Cultural influence *(e.g., traditional land practices)*, weighted by $\alpha$  
+- $M(x, t)$: MethaneSat concentration *(ppm)*, scaled by $\beta$  
+- $\epsilon(x, t)$: Error term accounting for noise and unmodeled effects  
+- $w_i$: Adaptive weights optimized via machine learning
+
 
 - **Novelty**:  
   - **Cultural Integration**: Quantitatively incorporates Indigenous knowledge (\( C(x, t) \)), a rare feature in emission models.  
