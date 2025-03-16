@@ -86,9 +86,9 @@ This research proposal outlines a collaborative project to map methane emissions
 
 - **Formulation**:  
   Define \( E(x, t) \) as the methane emission rate (kg CH₄/h) at location \( x \) and time \( t \):  
-  \[
+ $$ \[
   E(x, t) = \sum_{i=1}^N w_i S_i(x, t) + \alpha C(x, t) + \beta M(x, t) + \epsilon(x, t)
-  \]
+  \]$$
   Where:  
   - \( S_i(x, t) \): Emission contribution from source \( i \) (e.g., livestock \( S_1 \), soil \( S_2 \)), modeled as:  
     \[
